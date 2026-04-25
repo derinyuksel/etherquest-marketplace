@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive files - NEVER commit these
+*.env
+*.key
+.secret
+private_key.txt
+seed_phrase.txt
+mnemonic.txt
+
+# Build artifacts
+node_modules/
+build/
+dist/
+
+# Remix local files
+.remix/
